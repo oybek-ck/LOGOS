@@ -232,11 +232,11 @@ body {
 
 }
 
-.indeyka__link:hover {
+/* .indeyka__link:hover {
    background: linear-gradient(114.93deg, #ff0000 5.11%, #051408 94%);
    transition: 0.3s;
    transform: scale(1.1);
-}
+} */
 
 .section-card {
    position: relative;
@@ -415,7 +415,7 @@ body {
 
 .card__box-korzn {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    padding-right: 15px;
    padding-left: 20px;
@@ -439,6 +439,7 @@ body {
    border-radius: 10px;
    gap: 14px;
    transition: 0.7s;
+   margin-bottom: 10px;
 }
 
 .card-befor:hover {
@@ -1334,6 +1335,18 @@ body {
    font-size: 14px;
    line-height: 17px;
    text-align: center;
-   
+
    color: #FFFFFF;
+}
+
+.card-left__ {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.card-boxs__text {
+   font-size: 20px;
+   color: #fff;
+   font-family: 'Gilroy';
 }
